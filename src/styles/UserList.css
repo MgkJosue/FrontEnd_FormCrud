@@ -1,0 +1,97 @@
+.userlist-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .userlist-container h1 {
+    margin-bottom: 1em;
+    color: #343a40;
+  }
+  
+  .userlist-container p {
+    color: #dc3545;
+    font-weight: bold;
+  }
+  
+  .userlist-container table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .userlist-container th, .userlist-container td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .userlist-container th {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .userlist-container td button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    color: #343a40;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .userlist-container td button:last-child {
+    margin-right: 0;
+  }
+  
+  .userlist-container td button:hover {
+    background-color: #ced4da;
+    color: #212529;
+  }
+  
+  .userlist-container .pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+  }
+  
+  .userlist-container .pagination button {
+    color: #343a40;
+    background-color: #e9ecef;
+  }
+  
+  .userlist-container .pagination button:hover {
+    background-color: #ced4da;
+    color: #212529;
+  }
+  
+  .userlist-container .pagination span {
+    color: #343a40;
+  }
+
+  
+
+  .userlist-container input[type="text"] {
+    margin-bottom: 1em;
+    width: 100%;
+    max-width: 800px;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s;
+}
+
+.userlist-container input[type="text"]:focus {
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
